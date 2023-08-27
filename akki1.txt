@@ -1,0 +1,46 @@
+<html>
+<title> student </title>
+<head> <center> STUDENT REGISTRATION </center> 
+</head>
+<body background="C:\Users\sowmi\OneDrive\Pictures\student1.jpg">
+<form>
+<label style="background-color:grey;"> Enter your name:</label>
+<input type="full name" name="full name"> <br>
+<br>
+<label style="background-color:grey;"> Enter your redg number:</label>
+<input type="redg number" name="redg number"><br>
+<br>
+<label style="background-color:grey;">Enter your gmail:</label>
+<input type="gamil" name="gmail"><br>
+<br>
+<label style="background-color:grey;"> Enter your password </label>
+<input type="password" name="password"><br>
+<br>
+<label style="background-color:grey;">Sem:</label><br>
+<input type="radio" name="type" value="V">V<br>
+<input type="radio" name="type" value="VI">VI<br>
+<br>
+<label style="background-color:grey;"> Select your department: </label><br>
+<input type="checkbox" name="type"value="CSE">CSE<br>
+<input type="checkbox" name="type"value="ECE">ECE<br>
+<input type="checkbox" name="type"value="IT">IT<br>
+<input type="checkbox" name="type"value="EEE">EEE<br>
+<label for="year" style="background-color:grey;"> choose an year:</label>
+<select name="Year" id="year">
+<option value ="I">I</option>
+<option value ="II">II</option>
+<option value ="III">III</option>
+<option value ="IV">IV</option>
+</select>
+<br> 
+<br>
+<label for="points" style="background-color:grey;"> Rate us (between 0 to 10):</label>
+<input type="range" id="points" name="points" min="0" and max="10">
+<br>
+<br>
+<label style="background-color:grey;">Submit</label>
+<input type="submit" name="submit">
+
+</form>
+</body>
+</html>
